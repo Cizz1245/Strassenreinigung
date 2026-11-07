@@ -32,12 +32,13 @@ die auf der Webseite ohne Datum steht.
 ## APK für dein Handy erzeugen
 
 **Schnell (Debug-APK, zum Selbst-Installieren völlig ausreichend):**
-**Build → Build App Bundle(s) / APK(s) → Build APK(s)**.
+**Build → Generate App Bundles or APKs → Generate APKs**
+(in älteren Android-Studio-Versionen: *Build → Build App Bundle(s) / APK(s) → Build APK(s)*).
 Danach erscheint unten rechts „locate“ – die Datei liegt unter
 `app/build/outputs/apk/debug/app-debug.apk`. Diese Datei aufs Handy kopieren und öffnen
 (Installation aus „unbekannten Quellen“ erlauben).
 
-**Signierte Release-APK:** **Build → Generate Signed App Bundle / APK → APK**,
+**Signierte Release-APK:** **Build → Generate Signed App Bundle or APK… → APK**,
 einen neuen Schlüssel (Keystore) anlegen, „release“ wählen.
 Den Keystore gut aufbewahren – Updates der App müssen mit demselben Schlüssel signiert sein.
 
