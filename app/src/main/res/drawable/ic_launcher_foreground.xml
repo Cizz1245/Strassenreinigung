@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Einfaches App-Symbol: ein Auto über einem Besen-Strich, weiß auf blau -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Karosserie -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,56 L40,44 Q42,40 46,40 L62,40 Q66,40 68,44 L74,56 Q78,56 78,60 L78,66 Q78,68 76,68 L32,68 Q30,68 30,66 L30,60 Q30,56 34,56 Z" />
+    <!-- Fenster -->
+    <path
+        android:fillColor="#1E5AA8"
+        android:pathData="M42,55 L46,45 L53,45 L53,55 Z M56,45 L62,45 L66,55 L56,55 Z" />
+    <!-- Räder -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,68 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 M66,68 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+    <!-- Kehr-Linie -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M30,80 L78,80" />
+</vector>
